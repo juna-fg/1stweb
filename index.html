@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara Mendapatkan Unlimited Google Photo Original Quality</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Cara Mendapatkan Unlimited Google Photo Original Quality</h1>
+    </header>
+
+    <main>
+        <article>
+            <nav>
+                <ul>
+                    <li><a href="#pendahuluan">Pendahuluan</a></li>
+                    <li><a href="#alat-bahan">Alat dan Bahan</a></li>
+                    <li><a href="#langkah-langkah">Langkah-Langkah</a></li>
+                    <li><a href="#kesimpulan">Kesimpulan</a></li>
+                </ul>
+            </nav>
+            <section id="pendahuluan">
+              <h2>Pendahuluan</h2>
+              <p>Panduan ini menunjukkan cara mendapatkan penyimpanan Google Photos unlimited dengan kualitas original menggunakan emulator LDPlayer. 
+                 Modifikasi sistem Android memiliki risiko, namun penggunaan emulator meminimalisir dampaknya pada perangkat utama Anda. 
+                 <strong>Backup</strong> data penting Anda sebelum memulai.
+                 Metode ini mungkin tidak berfungsi selamanya karena Google dapat mengubah kebijakan mereka kapan saja.
+              </p>
+            </section>
+
+            <section id="alat-bahan">
+              <h2>Alat dan Bahan</h2>
+              <ul>
+                <li>PC (minimal quad core, RAM 8GB)</li>
+                <li><a href="https://ldplayer.net/" target="_blank" rel="noopener">LDPlayer 9</a></li>
+                <li><a href="https://huskydg.github.io/magisk-files/" target="_blank" rel="noopener">Magisk Kitsune</a></li>
+                <li><a href="https://github.com/LSPosed/LSPosed" target="_blank" rel="noopener">Module Magisk LSPosed</a></li>
+                <li><a href="https://t.me/pixelifyGooglePhotos/35917" target="_blank" rel="noopener">Pixelify GPhotos</a></li>
+                <li><a href="https://www.ghisler.com/android.htm" target="_blank" rel="noopener">Total Commander</a></li>
+                <li>Akun Google</li>
+              </ul>
+            </section>
+
+            <section id="langkah-langkah">
+                <h2>Langkah-Langkah</h2>
+                <h3>I. Rooting LDPlayer</h3>
+                <ol>
+                    <li>Buka aplikasi LDPlayer.</li>
+                    <li>Buka Pengaturan LDPlayer > Disk. Aktifkan <em>write access</em>.</li>
+                    <img src="assets/png/1.png" alt="aktifkan write access">
+                    <li>Buka Pengaturan LDPlayer > Other. Aktifkan <em>root access</em>, lalu <em>reboot</em> LDPlayer.</li>
+                    <img src="assets/png/2.png" alt="aktifkan root access">
+                    <img src="assets/png/3.png" alt="reboot LDPlayer">
+                    <li>Setelah LDPlayer menyala kembali, instal Magisk Kitsune (drag and drop). Berikan izin root jika diminta.</li>
+                    <img src="assets/gif/install_kitsune.gif" alt="instalasi Magisk Kitsune">
+                    <figcaption>Menginstal Magisk Kitsune dengan drag and drop</figcaption>
+                    <li>Buka Magisk Kitsune > <em>Install</em> > <em>Options recovery mode</em>. Pilih <em>direct install to system partition</em> > <em>Install</em>.</li>
+                    <img src="assets/png/4.png" alt="root LDPlayer dengan Kitsune">
+                    <img src="assets/png/5.png" alt="instalasi berhasil">
+                    <figcaption>Tampilan jika instalasi berhasil</figcaption>
+                    <li>Instal Total Commander (drag and drop).</li>
+                    <li>Buka Total Commander. Hapus file "su" di /system/xbin/ (beri izin root).</li>
+                    <img src="assets/gif/total_commander.gif" alt="hapus file su">
+                    <li>Remount drive (jika diperlukan).</li>
+                    <li>Reboot LDPlayer.</li>
+                    <li>Magisk Kitsune kini terpasang.</li>
+                </ol>
+
+                <h3>II. Mengaktifkan Unlimited Google Photos</h3>
+                <ol>
+                  <li>Buka Magisk Kitsune > Pengaturan. </li>
+                  <li>Pada bagian Magisk, aktifkan Zygisk.</li>
+                  <img src="assets/png/6.png" alt="pengaturan Magisk">
+                  <li>Di browser LDPlayer, unduh LSPosed Zygisk dari bagian <em>assets</em> pada <a href="#alat-bahan">tautan LSPosed</a>.</li>
+                  <img src="assets/png/7.png" alt="unduh modul">
+                  <li>Buka Magisk > <em>Modules</em>. Instal modul LSPosed yang telah diunduh.</li>
+                  <img src="assets/gif/install-module.gif" alt="instal modul">
+                  <li>Instal Pixelify GPhotos (drag and drop). Reboot LDPlayer.</li>
+                  <li>Setelah LDPlayer menyala kembali, aktifkan LSPosed untuk Pixelify GPhotos via notifikasi.</li>
+                  <img src="assets/gif/pixelify on.gif" alt="aktifkan Pixelify">
+                  <li>Buka Pixelify GPhotos > <em>Device spoof</em>. Pilih Pixel XL (jangan pilih Pixel terbaru).</li>
+                  <img src="assets/gif/pixelify setting.gif" alt="pengaturan Pixelify">
+                  <li>Klik "Force Stop" Google Photos (beri izin root).</li>
+                  <li>Pastikan Anda telah login ke akun Google dan menginstal Google Foto di LDPlayer.</li>
+                  <li>Buka Google Photos. Periksa apakah penyimpanan unlimited telah aktif.</li>
+                  <img src="assets/png/8.png" alt="unlimited storage aktif">
+                </ol>
+            </section>
+
+            <section id="kesimpulan">
+               <h2>Kesimpulan</h2>
+               <p>Selamat! Anda telah berhasil mengaktifkan penyimpanan unlimited Google Photos dengan kualitas original (semoga). Ingat, modifikasi sistem Android memiliki risiko. 
+                 Selalu backup data Anda. Metode ini bersifat sementara dan Google dapat mengubah kebijakan mereka kapan saja.
+               </p>
+            </section>
+        </article>
+
+        <aside>
+            <img src="assets/profile.jpg" alt="Foto Profil">
+            <h3>Tentang Saya</h3>
+            <p>Saya seorang penggemar teknologi dan suka berbagi tutorial. Saya juga suka meroasting orang yang menggunakan iPhone WiFi only.</p>
+            <a class="ig" href="https://www.instagram.com/lubang.hedset/" target="_blank" rel="noopener">
+                <i class="fab fa-instagram"></i> Instagram
+             </a>
+
+        </aside>
+    </main>
+
+    <footer>
+        2024 @lubang.hedset
+    </footer>
+</body>
+</html>
